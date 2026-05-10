@@ -25,7 +25,7 @@ function Projects() {
     try {
 
       await axios.post(
-        '${process.env.REACT_APP_API_URL}/api/projects',
+        `${process.env.REACT_APP_API_URL}/api/projects`,
         formData
       );
 
